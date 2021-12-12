@@ -8,6 +8,7 @@ namespace ReservationApp
 {
     class Human
     {
+        // Паспортные данные
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Patronymic { get; set; }
@@ -18,6 +19,8 @@ namespace ReservationApp
         public string PlaceIssue { get; set; }
         public string DateIssue { get; set; }
         public string DepartmentCode { get; set; }
+
+        // Срок регистрации
         public int Date { get; set; }
     }
 }

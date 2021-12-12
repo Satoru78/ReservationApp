@@ -8,6 +8,7 @@ namespace ReservationApp
 {
     class HotelRoom
     {
+        // Свойства номера 
         public int Key { get; set; }
         public int Code { get; set; }
         public string TypeNumber { get; set; }
