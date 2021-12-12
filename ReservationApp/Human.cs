@@ -8,9 +8,10 @@ namespace ReservationApp
 {
     class Human
     {
-        public string Surname { get; set; }
-        public string Name { get; set; }
-        public string Age { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Patronymic { get; set; }
+        public string DateTime { get; set; }
         public string Registration { get; set;}
         public string Series { get; set; }
         public string Number { get; set; }
