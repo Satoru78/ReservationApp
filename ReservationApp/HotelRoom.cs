@@ -8,9 +8,10 @@ namespace ReservationApp
 {
     class HotelRoom
     {
+        public int Key { get; set; }
         public int Code { get; set; }
         public string TypeNumber { get; set; }
-        public int PriceDay { get; set; }
+        public double PriceDay { get; set; }
 
     }
 }
